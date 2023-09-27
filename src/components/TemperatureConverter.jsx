@@ -13,9 +13,9 @@ const TemperatureConverter = () => {
     setCelsius(cTemp);
     setFahrenheit(((cTemp * 9) / 5 + 32).toFixed(2));
     setKelvin((cTemp + 273.15).toFixed(2));
-    e.target.classList.add("input-animation"); // Apply animation class
+    e.target.classList.add("input-animation");
     setTimeout(() => {
-      e.target.classList.remove("input-animation"); // Remove animation class after animation completes
+      e.target.classList.remove("input-animation");
     }, 500);
   };
 
@@ -24,9 +24,9 @@ const TemperatureConverter = () => {
     setFahrenheit(fTemp);
     setCelsius(((fTemp - 32) * (5 / 9)).toFixed(2));
     setKelvin(((fTemp - 32) * (5 / 9) + 273.15).toFixed(2));
-    e.target.classList.add("input-animation"); // Apply animation class
+    e.target.classList.add("input-animation");
     setTimeout(() => {
-      e.target.classList.remove("input-animation"); // Remove animation class after animation completes
+      e.target.classList.remove("input-animation");
     }, 500);
   };
 
@@ -35,9 +35,9 @@ const TemperatureConverter = () => {
     setKelvin(kTemp);
     setCelsius((kTemp - 273.15).toFixed(2));
     setFahrenheit(((kTemp - 273.15) * (9 / 5) + 32).toFixed(2));
-    e.target.classList.add("input-animation"); // Apply animation class
+    e.target.classList.add("input-animation");
     setTimeout(() => {
-      e.target.classList.remove("input-animation"); // Remove animation class after animation completes
+      e.target.classList.remove("input-animation");
     }, 500);
   };
 
@@ -55,12 +55,6 @@ const TemperatureConverter = () => {
           <FontAwesomeIcon icon={faTemperatureThreeQuarters} />
         </span>
       </div>
-
-      {/* <div className="title">
-        <h1>Temperature Converter</h1>
-        <span className="Temperature-icon">&#8451;</span>
-      </div> */}
-
       <div id="celsius">
         <input
           type="number"
@@ -88,7 +82,6 @@ const TemperatureConverter = () => {
         />
         <span className="icon">&#8490;</span>
       </div>
-
       <div className="button">
         <button onClick={handleClear}>All Clear</button>
       </div>

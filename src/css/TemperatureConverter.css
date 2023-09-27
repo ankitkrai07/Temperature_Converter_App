@@ -25,7 +25,7 @@ body {
   position: relative;
 }
 
-Party poppers animation */ body::before {
+body::before {
   content: "🎉";
   font-size: 50px;
   position: absolute;
@@ -114,9 +114,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(
-    --bg-color
-  ); /* Using the variable for background color */
+  background-color: var(--bg-color);
   animation: changeBackgroundColor var(--animation-duration)
     var(--animation-timing-function) var(--animation-infinite);
 }
@@ -174,14 +172,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f0f0;
-  } */
 
 .container {
   max-width: 450px;
