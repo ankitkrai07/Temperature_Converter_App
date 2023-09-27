@@ -39,8 +39,6 @@ To run this app on your local machine, follow these steps:
    npm start
    ```
 
-```
-
 - Open your web browser and go to http://localhost:3000 to access the app.
 
 ## Usage
@@ -55,4 +53,3 @@ To run this app on your local machine, follow these steps:
 ### Ankit Kumar
 
 - GitHub: https://github.com/ankitkrai07
-```
