@@ -27,15 +27,17 @@ To run this app on your local machine, follow these steps:
    git clone https://github.com/ankitkrai07/Temperature_Converter_App.git
    ```
 
-```cd temperature-converter-app
+   ```bash
+   cd temperature-converter-app
+   ```
 
-```
+   ```bash
+   npm install
+   ```
 
-```npm install
-
-```
-
-```npm start
+   ```bash
+   npm start
+   ```
 
 ```
 
@@ -53,3 +55,4 @@ To run this app on your local machine, follow these steps:
 ### Ankit Kumar
 
 - GitHub: https://github.com/ankitkrai07
+```
