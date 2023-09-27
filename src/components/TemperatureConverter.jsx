@@ -9,7 +9,7 @@ const TemperatureConverter = () => {
   const [kelvin, setKelvin] = useState("");
 
   const handleCelsiusChange = (e) => {
-    const cTemp = parseFloat(e.target.value);
+    const cTemp = Number(e.target.value);
     setCelsius(cTemp);
     setFahrenheit(((cTemp * 9) / 5 + 32).toFixed(2));
     setKelvin((cTemp + 273.15).toFixed(2));
@@ -20,7 +20,7 @@ const TemperatureConverter = () => {
   };
 
   const handleFahrenheitChange = (e) => {
-    const fTemp = parseFloat(e.target.value);
+    const fTemp = Number(e.target.value);
     setFahrenheit(fTemp);
     setCelsius(((fTemp - 32) * (5 / 9)).toFixed(2));
     setKelvin(((fTemp - 32) * (5 / 9) + 273.15).toFixed(2));
@@ -31,7 +31,7 @@ const TemperatureConverter = () => {
   };
 
   const handleKelvinChange = (e) => {
-    const kTemp = parseFloat(e.target.value);
+    const kTemp = Number(e.target.value);
     setKelvin(kTemp);
     setCelsius((kTemp - 273.15).toFixed(2));
     setFahrenheit(((kTemp - 273.15) * (9 / 5) + 32).toFixed(2));
