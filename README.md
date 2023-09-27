@@ -1,8 +1,8 @@
 # Temperature Converter App
 
-![Temperature Converter App](./src/Images/appimage.jpg)
-
 Welcome to the Temperature Converter App! This is a React-based web application that allows you to easily convert temperatures between Celsius, Fahrenheit, and Kelvin. The app also features smooth animations for a delightful user experience.
+
+![appimage](https://github.com/ankitkrai07/Temperature_Converter_App/assets/115462441/3af073cc-45b7-42d5-b1e3-08cf1b9b2f78)
 
 ## Features
 
